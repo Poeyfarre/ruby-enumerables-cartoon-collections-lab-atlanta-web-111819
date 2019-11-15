@@ -17,7 +17,7 @@ end
 #   array.any? {|call| call.length < 4}
 # end
 
-def find_the_cheese# code an argument here
+def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  
+  array.find {|cheese| cheese_types.join('').include? (cheese)}
 end
