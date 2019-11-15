@@ -14,7 +14,7 @@ return new_array
 end
 
 def long_planeteer_calls(array)
-  array.any? {|call| call.length < 4}
+  array.any? {|call| array.length < 4}
 end
 
 def find_the_cheese(array)
